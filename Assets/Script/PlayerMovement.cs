@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody playerRb;
 
-    public float speed = 5.0f;
+    public float speed = 500.0f;
     public Transform cam;
     public bool isPoweredUp;
 
@@ -73,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //deltatime is in game time
-        playerRb.AddForce(movement * speed * Time.deltaTime);
+        //playerRb.AddForce(movement * speed * Time.deltaTime);
     }
 
     private void Jump()

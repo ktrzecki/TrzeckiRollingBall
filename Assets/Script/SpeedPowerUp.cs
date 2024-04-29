@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class SpeedPowerUp : MonoBehaviour
 {
-    [SerializeField] private float speedIncreaseAmount = 10f;
+    [SerializeField] private float speedIncreaseAmount = 100.0f;
     [SerializeField] private float powerupDuration = 5;
 
     private Collider _collider;
